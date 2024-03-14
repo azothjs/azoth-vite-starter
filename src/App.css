@@ -1,0 +1,32 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.4rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.card {
+  padding: 1.5em;
+}
+
+.emoji-section {
+  max-height: 50vh;
+  width: 75vw;
+  max-width: 600px;
+  overflow-y: auto;
+  background: rgb(229, 229, 229);
+  margin: 0 auto;
+}
+
+.emojis {
+  list-style: none;
+  padding: 0 0.5em;
+  font-size: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
